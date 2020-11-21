@@ -1,7 +1,7 @@
 # OpenLiberty phase
 FROM openliberty/raspberrypi:latest
 
-LABEL maintainer="Warkdev" vendor="Private" github="https://github.com/Warkdev/template-service"
+LABEL maintainer="Warkdev" vendor="Private" github="https://github.com/Warkdev/character-service"
 
 COPY --chown=1001:0 src/main/liberty/config/ /config/
 USER root

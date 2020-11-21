@@ -1,2 +1,2 @@
 mvn clean package
-docker build -t warkdev/<updateme>-service:latest .
+docker build -t warkdev/character-service:latest .

@@ -3,11 +3,6 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This project is educational, this is a Rest API based on [Mangos Character Database](https://github.com/mangoszero/database), it provides access to the database through web calls and allows to manage Mangos Instances for a given realm:
-- Instance and its data
-- Group links to instances
-- Characte links to instances
-- Creature Respawns
-- Gameobject Respawns
 - Corpse
 
 # OpenAPI
@@ -31,7 +26,7 @@ This software is tested against [openliberty 20.0.0.11](https://openliberty.io/)
 Start by making available, in your lib directory, your database JDBC driver. Once done, here's an example for an openliberty server.xml configuration which will setup this application on `/` on port 9081. It's also assuming that you're using MariaDB and that it's provided in the shared resources folder of the webserver.
 
 ```xml
-<server description="instanceService">
+<server description="characterService">
     <featureManager>
         <feature>jaxrs-2.1</feature>
         <feature>jsonp-1.1</feature>
