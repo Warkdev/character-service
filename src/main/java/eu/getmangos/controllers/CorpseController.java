@@ -17,7 +17,7 @@ import eu.getmangos.entities.Corpse;
 public class CorpseController {
     @Inject private Logger logger;
 
-    @PersistenceContext(name = "CHAR_PU")
+    @PersistenceContext(unitName = "CHAR_PU")
     private EntityManager em;
 
     /**
